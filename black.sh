@@ -63,13 +63,13 @@ sleep 1
 echo "\033[31;1m____________________________________________ "
 echo "\033[32;1m||Tools : Black Dragon                       ||" 
 echo "\033[32;1m||Creator : Sad-Boy 1922                     ||"
-echo "\033[32;1m||Team : Black Coder Crush and Silent Ghost  || "
-echo "\033[32;1m||Youtube : Sad Boy 1922                     || "
-echo "\033[31;1m||___________________________________________|| "
+echo "\033[32;1m||Team : Black Coder Crush and Silent Ghost  ||"
+echo "\033[32;1m||Youtube : Sad Boy 1922                     ||"
+echo "\033[31;1m||___________________________________________||"
 echo "\033[33;1m[~Chose Tools :                              ||"
 echo "\033[31;1m||___________________________________________||"
 echo "\033[33;1m||                                           ||"
-echo "\033[31;1m|| [1].Crack Facebook(Black Dragon)          ||"
+echo "\033[31;1m|| [1].Locator                               ||"
 echo "\033[33;1m|| [2].Sad Boy Ddos(Black Dragon)            ||"
 echo "\033[33;1m|| [3].Admin Finder(Black Dragon)            ||"
 echo "\033[33;1m|| [4].Sql Map                               ||"
@@ -101,7 +101,24 @@ echo "\033[33;1m|| [29].Mailer Sender                        ||"
 echo "\033[31;1m|| [30].Wordpress Bruterforce                ||"
 echo "\033[31;1m|| [31].Com Fabrik Exploiter                 ||"
 echo "\033[33;1m|| [32].Termux Color                         ||"
-echo "\033[33;1m|| [33].F Society                            ||"
+echo "\033[33;1m|| [33].lokomedia exploiter                  ||"
+echo "\033[33;1m|| [34].elfinder exploiter                   ||"
+echo "\033[33;1m|| [35].com foxcontact exploiter             ||"
+echo "\033[33;1m|| [36].gmail brute force                    ||"
+echo "\033[33;1m|| [37].Oh-myzsh theme for termux            ||"
+echo "\033[33;1m|| [38].ezsploit                             ||"
+echo "\033[33;1m|| [39].Webdav                               ||"
+echo "\033[33;1m|| [40].WPScan                               ||"
+echo "\033[33;1m|| [41].Hunner                               ||"
+echo "\033[33;1m|| [42].magento add admin exploiter          ||"
+echo "\033[33;1m|| [43].Tools X(263 Tools)                   ||"
+echo "\033[33;1m|| [44].Website Vulnerability Scanner        ||"
+echo "\033[33;1m|| [45].Spam Sms All Operator                ||"
+echo "\033[33;1m|| [46].ViSql                                ||"
+echo "\033[33;1m|| [47].The Fat Rat                          ||"
+echo "\033[33;1m|| [48].Instagram Bot                        ||"
+echo "\033[33;1m|| [49].TorsHammer                           ||"
+echo "\033[33;1m|| [50].Information Gathering                ||"
 echo "\033[31;1m->Press 0 To Exit                            ||"
 echo "\033[32;1m||___________________________________________||"
 read -p "root@Sad Boy 1922]~>" sad
@@ -110,16 +127,20 @@ if [ $sad = 1 ] || [ $sad = 1 ]
 then
 clear
 echo "\033[31;1m+÷÷÷÷[]===============> "
-figlet "Crack Facebook " | lolcat
+figlet "Locator " | lolcat
 echo "\033[31;1m+÷÷÷÷[]===============> "
+pkg update
+pkg upgrade
 pkg install git
-pkg install python
-pkg install python2
-pip2 install mechanize
-pip2 install requests
-git clone https://github.com/SadBoy1922/black
-cd black
-python2 black.py
+pkg install php
+pkg install curl
+pkg install openssh
+pkg install python python2 -y
+clear
+git clone https://github.com/thelinuxchoice/locator.git
+ls
+cd locator
+bash locator.sh
 fi
 
 
@@ -129,13 +150,8 @@ clear
 echo "\033[31;1m+÷÷÷÷[]===============> "
 figlet "Ddos" | lolcat
 echo "\033[31;1m+÷÷÷÷[]===============> "
-pkg update && pkg upgrade
-pkg install python2
-pkg install figlet
-pkg install git
-git clone https://github.com/SadBoy1922/ddos
-cd ddos
-python2 ddos.py
+cd Black-Dragon
+python2 ddos.py 
 fi
 
 if [ $sad = 3 ] || [ $sad = 3 ]
@@ -143,12 +159,7 @@ then
 echo "\033[31;1m+÷÷÷÷[]===============> "
 figlet "Admin Finder" | lolcat
 echo "\033[31;1m+÷÷÷÷[]===============> "
-pkg update && pkg upgrade
-pkg install git
-pkg install python2
-pip2 install mechanize
-git clone https://github.com/SadBoy1922/PageFind
-cd PageFind
+cd Black-Dragon
 python2 adfin.py 
 fi
 
@@ -572,12 +583,274 @@ echo "\033[31;1m+÷÷÷÷[]===============> "
 figlet " F society " | lolcat
 echo "\033[31;1m+÷÷÷÷[]===============> "
 sleep 1
-apt-get update && apt-get upgrade
-pkg install python
 apt-get install git
 git clone https://github.com/Manisso/fsociety
 cd fsociety
 echo -e $red" python fsociety.py "
+fi
+
+if [ $sad = 34 ] || [ $sad = 34 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " elfinder exploiter " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir elfinder
+cd ~/elfinder
+wget https://pastebin.com/raw/S7Y2V19h -O elfinder.php
+cd ~/
+fi
+
+if [ $sad = 35 ] || [ $sad = 35 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Com Fox Contact Exploiter " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+apt-get install php
+wget https://pastebin.com/raw/EAtSir5V -O com_foxcontact.php
+sleep 1
+echo -e $red" Usage: php com_foxcontact.php target.txt "
+fi
+
+if [ $sad = 36 ] || [ $sad = 36 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " G Mail Bruterforce " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/JamesAndresCM/Brute_force_gmail
+sleep 1
+echo -e $red" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DICTIONARY "
+fi
+
+if [ $sad = 37 ] || [ $sad = 37 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Termux Color " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt-get update && apt-get upgrade
+sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
+~/.termux/colors.sh
+echo -e $red" chose color ? input ~/.termux/colors.sh "
+fi
+
+if [ $sad = 38 ] || [ $sad = 38 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Ezploit " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/rand0m1ze/ezsploit
+fi
+
+if [ $sad = 39 ] || [ $sad = 39 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Webdav " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt update && apt upgrade
+apt install python2
+pip2 install urllib3 chardet certifi idna requests
+apt install openssl curl
+pkg install libcurl
+mkdir webdav
+cd ~/webdav
+wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
+chmod 777 webdav.py
+cd ~/
+fi
+
+if [ $sad = 40 ] || [ $sad = 40 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Wordpress Scan " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt-get update && apt-get upgrade
+apt install ruby
+apt install curl
+apt install git
+git clone https://github.com/wpscanteam/wpscan
+cd ~/wpscan
+gem install bundle
+bundle config build.nokogiri --use-system-libraries
+bundle install
+ruby wpscan.rb --update
+cd ~/
+fi
+
+if [ $sad = 41 ] || [ $sad = 41 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Hunner " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt-get update && apt-get upgrade
+apt install python
+apt install git
+git clone https://github.com/b3-v3r/Hunner
+fi
+
+if [ $sad = 42 ] || [ $sad = 42 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Magento Exploit " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir magento
+cd ~/magento
+wget https://pastebin.com/raw/PXkG73pG -O magento.php
+cd ~/
+fi
+
+if [ $sad = 43 ] || [ $sad = 43 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Hunner " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt update && apt upgrade
+apt install git 
+apt install python2
+apt install python
+git clone https://github.com/rajkumrdusad/Tool-X.git
+cd Tool-X
+chmod +x install.aex
+ls
+sh install.aex
+fi
+
+if [ $sad = 44 ] || [ $sad = 44 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Web Scanner " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+git clone https://github.com/Moham3dRiahi/XAttacker.git
+cd XAttacker
+perl XAttacker.pl
+fi
+
+if [ $sad = 45 ] || [ $sad = 45 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Spam Sms " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+git clone https://github.com/h4ck3r321/gcospam.git
+cd gcospam
+chmod +x *
+./install.sh
+./gch.sh
+fi
+
+if [ $sad = 46 ] || [ $sad = 46 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Vi Sql " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt update && apt upgrade
+pkg install git
+pkg install python2
+git clone https://github.com/blackvkng/viSQL.git
+cd ~/viSQL
+chmod 777 viSQL.py
+cd ~/
+fi
+
+if [ $sad = 47 ] || [ $sad = 47 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Fat Rat " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/Screetsec/TheFatRat.git
+cd TheFatRat
+chmod +x setup.sh && ./setup.sh
+sleep 1
+cd ~/
+fi
+
+if [ $sad = 48 ] || [ $sad = 48 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Instagram Bot " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+pkg install python2
+apt-get install git
+apt-get install nano
+git clone https://github.com/instabot-py/instabot.py
+echo -e $red" Done Install Cuk "
+echo -e $red" Please wait... "
+echo -e $red" Please wait... "
+sleep 1
+cd instabot.py
+echo -e $red" ketik nano example.py "
+echo -e $red" masukan username dan password mu"
+fi
+
+if [ $sad = 49 ] || [ $sad = 49 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " Torshammer " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+pkg update
+pkg upgrade
+pkg install python
+pkg install git
+git clone https://github.com/cyweb/hammer
+cd ~/
+fi
+
+if [ $sad = 50 ] || [ $sad = 50 ]
+then
+clear
+echo "\033[31;1m+÷÷÷÷[]===============> "
+figlet " information gathering " | lolcat
+echo "\033[31;1m+÷÷÷÷[]===============> "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt install python2
+git clone https://github.com/maldevel/IPGeolocation.git
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+sleep 1
 fi
 
 if [ $sad = 0 ] || [ $sad = 0 ]
