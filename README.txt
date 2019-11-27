@@ -16,7 +16,7 @@ pip2 install requests
 pkg install git
 git clone https://github.com/Sad-Boy-1922/Black-Dragon/
 cd Black-Dragon
-bash install.sh
+sh install.sh
 
 Features:
 1.Hack Account Facebook
