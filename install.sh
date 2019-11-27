@@ -113,7 +113,7 @@ echo "\033[31;1m+÷÷÷÷[]===============> "
 figlet "Installer" | lolcat
 echo "\033[31;1m+÷÷÷÷[]===============> "
 cd Black-Dragon
-bash black.sh
+sh black.sh
 fi
 
 if [ $sad = 0 ] || [ $sad = 0 ]
